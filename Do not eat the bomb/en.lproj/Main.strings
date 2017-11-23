@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "High Socre"; ObjectID = "1s9-5Z-Muf"; */
+"1s9-5Z-Muf.text" = "High Socre";
+
+/* Class = "UILabel"; text = "New Game"; ObjectID = "LMz-ab-EiL"; */
+"LMz-ab-EiL.text" = "New Game";
+
+/* Class = "UILabel"; text = "30"; ObjectID = "Rdq-bN-WYF"; */
+"Rdq-bN-WYF.text" = "30";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "WBJ-BB-Avs"; */
+"WBJ-BB-Avs.text" = "Result";
+
+/* Class = "UIButton"; normalTitle = "Try Again"; ObjectID = "bLX-L7-TwC"; */
+"bLX-L7-TwC.normalTitle" = "Try Again";
+
+/* Class = "UIButton"; normalTitle = "Return to top"; ObjectID = "rEg-Gk-fcN"; */
+"rEg-Gk-fcN.normalTitle" = "Return to top";

@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED46AEF71FC44E9200AC0902 /* 1200px-Pac-Man.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46AEF61FC44E9200AC0902 /* 1200px-Pac-Man.svg.png */; };
+		EDE3B2A61FBE25CA005E50EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2A51FBE25CA005E50EF /* AppDelegate.m */; };
+		EDE3B2A91FBE25CA005E50EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2A81FBE25CA005E50EF /* ViewController.m */; };
+		EDE3B2AC1FBE25CA005E50EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE3B2AA1FBE25CA005E50EF /* Main.storyboard */; };
+		EDE3B2AE1FBE25CA005E50EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE3B2AD1FBE25CA005E50EF /* Assets.xcassets */; };
+		EDE3B2B41FBE25CA005E50EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2B31FBE25CA005E50EF /* main.m */; };
+		EDE3B2BE1FBE25CA005E50EF /* Do_not_eat_the_bombTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2BD1FBE25CA005E50EF /* Do_not_eat_the_bombTests.m */; };
+		EDE3B2C91FBE25CA005E50EF /* Do_not_eat_the_bombUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2C81FBE25CA005E50EF /* Do_not_eat_the_bombUITests.m */; };
+		EDE3B2DA1FBE2975005E50EF /* bomb4.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3B2D61FBE2974005E50EF /* bomb4.png */; };
+		EDE3B2DB1FBE2975005E50EF /* banana-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3B2D71FBE2974005E50EF /* banana-hi.png */; };
+		EDE3B2DC1FBE2975005E50EF /* 11971257911435800368stuuf_grapes.svg.hi.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3B2D81FBE2975005E50EF /* 11971257911435800368stuuf_grapes.svg.hi.png */; };
+		EDE3B2DF1FBE2997005E50EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE3B2DE1FBE2997005E50EF /* Default-568h@2x.png */; };
+		EDE3B2EE1FBE63C0005E50EF /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2ED1FBE63C0005E50EF /* ResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE3B2BA1FBE25CA005E50EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE3B2991FBE25CA005E50EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE3B2A01FBE25CA005E50EF;
+			remoteInfo = "Do not eat the bomb";
+		};
+		EDE3B2C51FBE25CA005E50EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE3B2991FBE25CA005E50EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE3B2A01FBE25CA005E50EF;
+			remoteInfo = "Do not eat the bomb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED46AEF61FC44E9200AC0902 /* 1200px-Pac-Man.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Pac-Man.svg.png"; sourceTree = "<group>"; };
+		EDE3B2A11FBE25CA005E50EF /* Do not eat the bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do not eat the bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE3B2A41FBE25CA005E50EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDE3B2A51FBE25CA005E50EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDE3B2A71FBE25CA005E50EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDE3B2A81FBE25CA005E50EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDE3B2AB1FBE25CA005E50EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE3B2AD1FBE25CA005E50EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE3B2B21FBE25CA005E50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE3B2B31FBE25CA005E50EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE3B2B91FBE25CA005E50EF /* Do not eat the bombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do not eat the bombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE3B2BD1FBE25CA005E50EF /* Do_not_eat_the_bombTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_not_eat_the_bombTests.m; sourceTree = "<group>"; };
+		EDE3B2BF1FBE25CA005E50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE3B2C41FBE25CA005E50EF /* Do not eat the bombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do not eat the bombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE3B2C81FBE25CA005E50EF /* Do_not_eat_the_bombUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_not_eat_the_bombUITests.m; sourceTree = "<group>"; };
+		EDE3B2CA1FBE25CA005E50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE3B2D61FBE2974005E50EF /* bomb4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb4.png; sourceTree = "<group>"; };
+		EDE3B2D71FBE2974005E50EF /* banana-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana-hi.png"; sourceTree = "<group>"; };
+		EDE3B2D81FBE2975005E50EF /* 11971257911435800368stuuf_grapes.svg.hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11971257911435800368stuuf_grapes.svg.hi.png; sourceTree = "<group>"; };
+		EDE3B2DE1FBE2997005E50EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EDE3B2EC1FBE63BA005E50EF /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		EDE3B2ED1FBE63C0005E50EF /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE3B29E1FBE25CA005E50EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3B2B61FBE25CA005E50EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3B2C11FBE25CA005E50EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE3B2981FBE25CA005E50EF = {
+			isa = PBXGroup;
+			children = (
+				EDE3B2DE1FBE2997005E50EF /* Default-568h@2x.png */,
+				EDE3B2A31FBE25CA005E50EF /* Do not eat the bomb */,
+				EDE3B2BC1FBE25CA005E50EF /* Do not eat the bombTests */,
+				EDE3B2C71FBE25CA005E50EF /* Do not eat the bombUITests */,
+				EDE3B2A21FBE25CA005E50EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE3B2A21FBE25CA005E50EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3B2A11FBE25CA005E50EF /* Do not eat the bomb.app */,
+				EDE3B2B91FBE25CA005E50EF /* Do not eat the bombTests.xctest */,
+				EDE3B2C41FBE25CA005E50EF /* Do not eat the bombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE3B2A31FBE25CA005E50EF /* Do not eat the bomb */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3B2A41FBE25CA005E50EF /* AppDelegate.h */,
+				EDE3B2A51FBE25CA005E50EF /* AppDelegate.m */,
+				EDE3B2A71FBE25CA005E50EF /* ViewController.h */,
+				EDE3B2EC1FBE63BA005E50EF /* ResultViewController.h */,
+				EDE3B2ED1FBE63C0005E50EF /* ResultViewController.m */,
+				EDE3B2A81FBE25CA005E50EF /* ViewController.m */,
+				EDE3B2AA1FBE25CA005E50EF /* Main.storyboard */,
+				EDE3B2AD1FBE25CA005E50EF /* Assets.xcassets */,
+				EDE3B2B21FBE25CA005E50EF /* Info.plist */,
+				EDE3B2B31FBE25CA005E50EF /* main.m */,
+				ED46AEF61FC44E9200AC0902 /* 1200px-Pac-Man.svg.png */,
+				EDE3B2D81FBE2975005E50EF /* 11971257911435800368stuuf_grapes.svg.hi.png */,
+				EDE3B2D71FBE2974005E50EF /* banana-hi.png */,
+				EDE3B2D61FBE2974005E50EF /* bomb4.png */,
+			);
+			path = "Do not eat the bomb";
+			sourceTree = "<group>";
+		};
+		EDE3B2BC1FBE25CA005E50EF /* Do not eat the bombTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3B2BD1FBE25CA005E50EF /* Do_not_eat_the_bombTests.m */,
+				EDE3B2BF1FBE25CA005E50EF /* Info.plist */,
+			);
+			path = "Do not eat the bombTests";
+			sourceTree = "<group>";
+		};
+		EDE3B2C71FBE25CA005E50EF /* Do not eat the bombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE3B2C81FBE25CA005E50EF /* Do_not_eat_the_bombUITests.m */,
+				EDE3B2CA1FBE25CA005E50EF /* Info.plist */,
+			);
+			path = "Do not eat the bombUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE3B2A01FBE25CA005E50EF /* Do not eat the bomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE3B2CD1FBE25CA005E50EF /* Build configuration list for PBXNativeTarget "Do not eat the bomb" */;
+			buildPhases = (
+				EDE3B29D1FBE25CA005E50EF /* Sources */,
+				EDE3B29E1FBE25CA005E50EF /* Frameworks */,
+				EDE3B29F1FBE25CA005E50EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Do not eat the bomb";
+			productName = "Do not eat the bomb";
+			productReference = EDE3B2A11FBE25CA005E50EF /* Do not eat the bomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE3B2B81FBE25CA005E50EF /* Do not eat the bombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE3B2D01FBE25CA005E50EF /* Build configuration list for PBXNativeTarget "Do not eat the bombTests" */;
+			buildPhases = (
+				EDE3B2B51FBE25CA005E50EF /* Sources */,
+				EDE3B2B61FBE25CA005E50EF /* Frameworks */,
+				EDE3B2B71FBE25CA005E50EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE3B2BB1FBE25CA005E50EF /* PBXTargetDependency */,
+			);
+			name = "Do not eat the bombTests";
+			productName = "Do not eat the bombTests";
+			productReference = EDE3B2B91FBE25CA005E50EF /* Do not eat the bombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE3B2C31FBE25CA005E50EF /* Do not eat the bombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE3B2D31FBE25CA005E50EF /* Build configuration list for PBXNativeTarget "Do not eat the bombUITests" */;
+			buildPhases = (
+				EDE3B2C01FBE25CA005E50EF /* Sources */,
+				EDE3B2C11FBE25CA005E50EF /* Frameworks */,
+				EDE3B2C21FBE25CA005E50EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE3B2C61FBE25CA005E50EF /* PBXTargetDependency */,
+			);
+			name = "Do not eat the bombUITests";
+			productName = "Do not eat the bombUITests";
+			productReference = EDE3B2C41FBE25CA005E50EF /* Do not eat the bombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE3B2991FBE25CA005E50EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "University of Leeds";
+				TargetAttributes = {
+					EDE3B2A01FBE25CA005E50EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EDE3B2B81FBE25CA005E50EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE3B2A01FBE25CA005E50EF;
+					};
+					EDE3B2C31FBE25CA005E50EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE3B2A01FBE25CA005E50EF;
+					};
+				};
+			};
+			buildConfigurationList = EDE3B29C1FBE25CA005E50EF /* Build configuration list for PBXProject "Do not eat the bomb" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE3B2981FBE25CA005E50EF;
+			productRefGroup = EDE3B2A21FBE25CA005E50EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE3B2A01FBE25CA005E50EF /* Do not eat the bomb */,
+				EDE3B2B81FBE25CA005E50EF /* Do not eat the bombTests */,
+				EDE3B2C31FBE25CA005E50EF /* Do not eat the bombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE3B29F1FBE25CA005E50EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3B2AE1FBE25CA005E50EF /* Assets.xcassets in Resources */,
+				EDE3B2DC1FBE2975005E50EF /* 11971257911435800368stuuf_grapes.svg.hi.png in Resources */,
+				EDE3B2AC1FBE25CA005E50EF /* Main.storyboard in Resources */,
+				ED46AEF71FC44E9200AC0902 /* 1200px-Pac-Man.svg.png in Resources */,
+				EDE3B2DA1FBE2975005E50EF /* bomb4.png in Resources */,
+				EDE3B2DF1FBE2997005E50EF /* Default-568h@2x.png in Resources */,
+				EDE3B2DB1FBE2975005E50EF /* banana-hi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3B2B71FBE25CA005E50EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3B2C21FBE25CA005E50EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE3B29D1FBE25CA005E50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3B2A91FBE25CA005E50EF /* ViewController.m in Sources */,
+				EDE3B2B41FBE25CA005E50EF /* main.m in Sources */,
+				EDE3B2A61FBE25CA005E50EF /* AppDelegate.m in Sources */,
+				EDE3B2EE1FBE63C0005E50EF /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3B2B51FBE25CA005E50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3B2BE1FBE25CA005E50EF /* Do_not_eat_the_bombTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3B2C01FBE25CA005E50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE3B2C91FBE25CA005E50EF /* Do_not_eat_the_bombUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE3B2BB1FBE25CA005E50EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE3B2A01FBE25CA005E50EF /* Do not eat the bomb */;
+			targetProxy = EDE3B2BA1FBE25CA005E50EF /* PBXContainerItemProxy */;
+		};
+		EDE3B2C61FBE25CA005E50EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE3B2A01FBE25CA005E50EF /* Do not eat the bomb */;
+			targetProxy = EDE3B2C51FBE25CA005E50EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE3B2AA1FBE25CA005E50EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE3B2AB1FBE25CA005E50EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE3B2CB1FBE25CA005E50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDE3B2CC1FBE25CA005E50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE3B2CE1FBE25CA005E50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Do not eat the bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nico.Do-not-eat-the-bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE3B2CF1FBE25CA005E50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Do not eat the bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nico.Do-not-eat-the-bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDE3B2D11FBE25CA005E50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Do not eat the bombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nico.Do-not-eat-the-bombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Do not eat the bomb.app/Do not eat the bomb";
+			};
+			name = Debug;
+		};
+		EDE3B2D21FBE25CA005E50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Do not eat the bombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nico.Do-not-eat-the-bombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Do not eat the bomb.app/Do not eat the bomb";
+			};
+			name = Release;
+		};
+		EDE3B2D41FBE25CA005E50EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Do not eat the bombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nico.Do-not-eat-the-bombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Do not eat the bomb";
+			};
+			name = Debug;
+		};
+		EDE3B2D51FBE25CA005E50EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Do not eat the bombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nico.Do-not-eat-the-bombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Do not eat the bomb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE3B29C1FBE25CA005E50EF /* Build configuration list for PBXProject "Do not eat the bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE3B2CB1FBE25CA005E50EF /* Debug */,
+				EDE3B2CC1FBE25CA005E50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE3B2CD1FBE25CA005E50EF /* Build configuration list for PBXNativeTarget "Do not eat the bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE3B2CE1FBE25CA005E50EF /* Debug */,
+				EDE3B2CF1FBE25CA005E50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE3B2D01FBE25CA005E50EF /* Build configuration list for PBXNativeTarget "Do not eat the bombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE3B2D11FBE25CA005E50EF /* Debug */,
+				EDE3B2D21FBE25CA005E50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE3B2D31FBE25CA005E50EF /* Build configuration list for PBXNativeTarget "Do not eat the bombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE3B2D41FBE25CA005E50EF /* Debug */,
+				EDE3B2D51FBE25CA005E50EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE3B2991FBE25CA005E50EF /* Project object */;
+}
