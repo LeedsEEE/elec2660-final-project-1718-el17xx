@@ -1,18 +1,20 @@
 //
 //  ResultViewController.h
-//  Do not eat the bomb
+//  Application Game
 //
-//  Created by Nicopoi on 17/11/2017.
-//  Copyright © 2017 Nicopoi. All rights reserved.
+//  Created by Xingjian Xia [el17xx] on 27/11/2017.
+//  Copyright © 2017 Xingjian Xia [el17xx]. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ResultViewController :UIViewController
+@interface ResultViewController : UIViewController
 
-@property(nonatomic)int score;
+@property (nonatomic) int ScoreWin;
 
-@property (weak, nonatomic) IBOutlet UILabel *scoreLable;
-@property (weak, nonatomic) IBOutlet UILabel *highScoreLable;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *highestScoreLabel;
+
+
 
 @end

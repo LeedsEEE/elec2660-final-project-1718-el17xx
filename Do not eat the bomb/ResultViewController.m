@@ -1,9 +1,9 @@
 //
 //  ResultViewController.m
-//  Do not eat the bomb
+//  Application Game
 //
-//  Created by Nicopoi on 17/11/2017.
-//  Copyright © 2017 Nicopoi. All rights reserved.
+//  Created by Xingjian Xia [el17xx] on 27/11/2017.
+//  Copyright © 2017 Xingjian Xia [el17xx]. All rights reserved.
 //
 
 #import "ResultViewController.h"
@@ -11,27 +11,29 @@
 @interface ResultViewController ()
 
 @end
+
 @implementation ResultViewController
-@synthesize scoreLable,highScoreLable,score;
+@synthesize scoreLabel, highestScoreLabel, ScoreWin;
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [scoreLabel setText:[NSString stringWithFormat:@"%d", ScoreWin]];
     
-    [scoreLable setText:[NSString stringWithFormat:@"%d", score]];
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSInteger HighestScore = [userDefaults integerForKey:@"Easy Level Highest Score"];
     
-    NSUserDefaults *userDefaults=[NSUserDefaults standardUserDefaults];
-    NSInteger highScore = [userDefaults integerForKey:@"High Score"];
-    
-    if(score > highScore){
-        [userDefaults setInteger: score forKey:@"High Score"];
-        [highScoreLable setText:[NSString stringWithFormat:@"High Score :%d",score]];
+    if(ScoreWin > HighestScore)
+    {
+        [userDefaults setInteger: ScoreWin forKey:@"Easy Level Highest Score"];
+        [highestScoreLabel setText: [NSString stringWithFormat:@"Highest Score (Easy): %d", ScoreWin]];
     }
-    
-    else{
-        [highScoreLable setText:[NSString stringWithFormat:@"High Score : %ld", (long)highScore]];
+    else
+    {
+        [highestScoreLabel setText: [NSString stringWithFormat:@"Highest Score (Easy): %ld", (long)HighestScore]];
     }
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,13 +42,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
