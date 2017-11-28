@@ -1,20 +1,14 @@
 //
-//  ViewController.m
+//  HardViewController.m
 //  Application Game
 //
-//  Created by Xingjian Xia [el17xx] on 27/11/2017.
+//  Created by Xingjian Xia [el17xx] on 28/11/2017.
 //  Copyright © 2017 Xingjian Xia [el17xx]. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "ResultViewController.h"
-@interface ViewController ()
-//add
-
-
-
-
-
+#import "HardViewController.h"
+#import "ResultHardViewController.h"
+@interface HardViewController ()
 
 {
     BOOL start;
@@ -43,29 +37,19 @@
 
 
 
-
-
-
 @end
 
-
-
-
-
-
-
-@implementation ViewController
+@implementation HardViewController
 @synthesize startLable, pacman, grape, banana, bomb;
 
 
 
 
 
-//add
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+    // Do any additional setup after loading the view.
     start = NO;
     
     bomb.hidden = YES;
@@ -88,12 +72,11 @@
     scoreGet = 0;
     scoreLable = [[UILabel alloc]initWithFrame:CGRectMake(230, 10, 120, 30)];
     [scoreLable setText:@"Score: 0"];
+    
     [self.view addSubview:scoreLable];
-    
-    
+
 }
 
-//add
 - (int)RandomNumber:(int)HalfSize
 {
     int max;
@@ -107,8 +90,8 @@
 //add
 -(void)Result
 {
-    ResultViewController *result;
-    result = [self.storyboard instantiateViewControllerWithIdentifier:@"ResultViewController"];
+    ResultHardViewController *result;
+    result = [self.storyboard instantiateViewControllerWithIdentifier:@"ResultHardViewController"];
     [result setScoreWin:scoreGet];
     [self presentViewController:result animated:YES completion:nil];
 }
@@ -143,14 +126,6 @@
     
 }
 
-
-
-
-
-
-
-
-
 //add
 - (void)Running
 {
@@ -158,7 +133,7 @@
     
     int pacmanY = pacman.center.y + pacmanSpeed;
     
-    if(pacmanY < 23 + barHeight )
+    if(pacmanY < 23 + barHeight)
     {
         pacmanY = 23 + barHeight;
     }
@@ -172,7 +147,7 @@
     //set grape
     int grapeX;
     int grapeY;
-    grapeX = grape.center.x -4;
+    grapeX = grape.center.x -8;
     grapeY = grape.center.y;
     
     if(grapeX < 0)
@@ -186,7 +161,7 @@
     //set banana
     int bananaX;
     int bananaY;
-    bananaX = banana.center.x -3;
+    bananaX = banana.center.x -6;
     bananaY = banana.center.y;
     
     if(bananaX < 0)
@@ -200,12 +175,12 @@
     //set bomb
     int bombX;
     int bombY;
-    bombX = bomb.center.x -5;
+    bombX = bomb.center.x -10;
     bombY = bomb.center.y;
     
     if(bombX < 0)
     {
-        bombX = screenWidth + 150;
+        bombX = screenWidth + 100;
         bombY = [self RandomNumber:bombHalfsize];
     }
     
@@ -213,17 +188,6 @@
     
     scoreLable.text = [NSString stringWithFormat:@"Score: %d", scoreGet];
 }
-
-
-
-
-
-
-
-
-
-
-
 
 //add
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -258,17 +222,19 @@
 }
 
 
-
-
-
-
-
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5885F2EA1FCDA12B00BC14D3 /* ResultHardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885F2E91FCDA12B00BC14D3 /* ResultHardViewController.m */; };
-		5885F2ED1FCDA14400BC14D3 /* HardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885F2EC1FCDA14400BC14D3 /* HardViewController.m */; };
+		5885F2F91FCDA9BD00BC14D3 /* ResultHardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885F2F81FCDA9BD00BC14D3 /* ResultHardViewController.m */; };
+		5885F2FC1FCDAAC300BC14D3 /* HardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885F2FB1FCDAAC300BC14D3 /* HardViewController.m */; };
 		ED46AEF71FC44E9200AC0902 /* 1200px-Pac-Man.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ED46AEF61FC44E9200AC0902 /* 1200px-Pac-Man.svg.png */; };
 		EDE3B2A61FBE25CA005E50EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2A51FBE25CA005E50EF /* AppDelegate.m */; };
 		EDE3B2A91FBE25CA005E50EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3B2A81FBE25CA005E50EF /* ViewController.m */; };
@@ -42,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5885F2E81FCDA12B00BC14D3 /* ResultHardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultHardViewController.h; path = "../../../Desktop/Application Game/ResultHardViewController.h"; sourceTree = "<group>"; };
-		5885F2E91FCDA12B00BC14D3 /* ResultHardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultHardViewController.m; path = "../../../Desktop/Application Game/ResultHardViewController.m"; sourceTree = "<group>"; };
-		5885F2EB1FCDA14400BC14D3 /* HardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HardViewController.h; path = "../../../Desktop/Application Game/Application Game/HardViewController.h"; sourceTree = "<group>"; };
-		5885F2EC1FCDA14400BC14D3 /* HardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HardViewController.m; path = "../../../Desktop/Application Game/Application Game/HardViewController.m"; sourceTree = "<group>"; };
+		5885F2F71FCDA97D00BC14D3 /* ResultHardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultHardViewController.h; sourceTree = "<group>"; };
+		5885F2F81FCDA9BD00BC14D3 /* ResultHardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultHardViewController.m; sourceTree = "<group>"; };
+		5885F2FA1FCDAABD00BC14D3 /* HardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardViewController.h; sourceTree = "<group>"; };
+		5885F2FB1FCDAAC300BC14D3 /* HardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardViewController.m; sourceTree = "<group>"; };
 		ED46AEF61FC44E9200AC0902 /* 1200px-Pac-Man.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Pac-Man.svg.png"; sourceTree = "<group>"; };
 		EDE3B2A11FBE25CA005E50EF /* Do not eat the bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do not eat the bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE3B2A41FBE25CA005E50EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,10 +125,10 @@
 				EDE3B2A81FBE25CA005E50EF /* ViewController.m */,
 				EDE3B2EC1FBE63BA005E50EF /* ResultViewController.h */,
 				EDE3B2ED1FBE63C0005E50EF /* ResultViewController.m */,
-				5885F2EB1FCDA14400BC14D3 /* HardViewController.h */,
-				5885F2EC1FCDA14400BC14D3 /* HardViewController.m */,
-				5885F2E81FCDA12B00BC14D3 /* ResultHardViewController.h */,
-				5885F2E91FCDA12B00BC14D3 /* ResultHardViewController.m */,
+				5885F2FB1FCDAAC300BC14D3 /* HardViewController.m */,
+				5885F2FA1FCDAABD00BC14D3 /* HardViewController.h */,
+				5885F2F71FCDA97D00BC14D3 /* ResultHardViewController.h */,
+				5885F2F81FCDA9BD00BC14D3 /* ResultHardViewController.m */,
 				EDE3B2AA1FBE25CA005E50EF /* Main.storyboard */,
 				EDE3B2AD1FBE25CA005E50EF /* Assets.xcassets */,
 				EDE3B2B21FBE25CA005E50EF /* Info.plist */,
@@ -296,12 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5885F2FC1FCDAAC300BC14D3 /* HardViewController.m in Sources */,
+				5885F2F91FCDA9BD00BC14D3 /* ResultHardViewController.m in Sources */,
 				EDE3B2A91FBE25CA005E50EF /* ViewController.m in Sources */,
 				EDE3B2B41FBE25CA005E50EF /* main.m in Sources */,
 				EDE3B2A61FBE25CA005E50EF /* AppDelegate.m in Sources */,
-				5885F2ED1FCDA14400BC14D3 /* HardViewController.m in Sources */,
 				EDE3B2EE1FBE63C0005E50EF /* ResultViewController.m in Sources */,
-				5885F2EA1FCDA12B00BC14D3 /* ResultHardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
