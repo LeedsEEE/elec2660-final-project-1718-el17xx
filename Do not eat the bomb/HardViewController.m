@@ -17,12 +17,6 @@
     int pacmanSpeed;
     
     //set size
-    int pacmanHalfsize;
-    int grapeHalfsize;
-    int bananaHalfsize;
-    int bombHalfsize;
-    
-    //set size
     int screenWidth;
     int screenHeight;
     int barHeight;
@@ -63,10 +57,10 @@
     barHeight = (int)[[UIApplication sharedApplication]statusBarFrame].size.height;
     
     //HalfSize
-    pacmanHalfsize = pacman.frame.size.width/2;
-    grapeHalfsize = grape.frame.size.width/2;
-    bananaHalfsize = banana.frame.size.width/2;
-    bombHalfsize = bomb.frame.size.width/2;
+    //pacmanHalfsize = pacman.frame.size.width/2;
+    //grapeHalfsize = grape.frame.size.width/2;
+    //bananaHalfsize = banana.frame.size.width/2;
+    //bombHalfsize = bomb.frame.size.width/2;
     
     //Score
     scoreGet = 0;
@@ -77,15 +71,6 @@
 
 }
 
-- (int)RandomNumber:(int)HalfSize
-{
-    int max;
-    int min;
-    min = barHeight + HalfSize;
-    max = screenHeight - HalfSize - min;
-    
-    return arc4random_uniform(max) + min;
-}
 
 //add
 -(void)Result
@@ -153,7 +138,7 @@
     if(grapeX < 0)
     {
         grapeX = screenWidth + 400;
-        grapeY = [self RandomNumber:grapeHalfsize];
+        grapeY = arc4random_uniform(screenHeight - 23 -23 - barHeight) + (23 + barHeight);
     }
     
     grape.center = CGPointMake(grapeX, grapeY);
@@ -167,7 +152,7 @@
     if(bananaX < 0)
     {
         bananaX = screenWidth + 400;
-        bananaY = [self RandomNumber:bananaHalfsize];
+        bananaY = arc4random_uniform(screenHeight - 23 -23 - barHeight) + (23 + barHeight);
     }
     
     banana.center = CGPointMake(bananaX, bananaY);
@@ -181,7 +166,7 @@
     if(bombX < 0)
     {
         bombX = screenWidth + 100;
-        bombY = [self RandomNumber:bombHalfsize];
+        bombY = arc4random_uniform(screenHeight - 23 -23 - barHeight) + (23 + barHeight);
     }
     
     bomb.center = CGPointMake(bombX, bombY);
