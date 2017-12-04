@@ -19,20 +19,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
     [scoreLabel setText:[NSString stringWithFormat:@"%d", ScoreWin]];
     
+    //Code of saving and loading values from a document needed was learnt from
+    //http://www.jianshu.com/p/459c15cf6ce2
+    
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSInteger HighestScore = [userDefaults integerForKey:@"Easy Level Highest Score"];
+    NSInteger HighestScore = [userDefaults integerForKey:@"Easy Level Highest Score"]; //To load the highest score called HighestScore in document "Easy Level Highest Score"
     
     if(ScoreWin > HighestScore)
     {
-        [userDefaults setInteger: ScoreWin forKey:@"Easy Level Highest Score"];
-        [highestScoreLabel setText: [NSString stringWithFormat:@"Highest Score (Easy): %d", ScoreWin]];
+        [userDefaults setInteger: ScoreWin forKey:@"Easy Level Highest Score"]; //To make the highest score called ScoreWin in document "Easy Level Highest Score"
+        [highestScoreLabel setText: [NSString stringWithFormat:@"Highest Score (Easy): %d", ScoreWin]]; //Show the highest result
     }
     else
     {
-        [highestScoreLabel setText: [NSString stringWithFormat:@"Highest Score (Easy): %ld", (long)HighestScore]];
+        [highestScoreLabel setText: [NSString stringWithFormat:@"Highest Score (Easy): %ld", (long)HighestScore]]; //Show the highest result
+
     }
 }
 

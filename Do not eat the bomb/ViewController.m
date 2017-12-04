@@ -152,7 +152,7 @@
         //Code to runing anothrt function was learnt from
         //http://m.blog.csdn.net/libaineu2004/article/details/45874149
         
-        [self performSelector:@selector(Result) withObject:nil afterDelay:1];//To run the Result function
+        [self performSelector:@selector(Result) withObject:nil afterDelay:1];//To run the Result function after 1 second
     }
     
     
@@ -250,9 +250,13 @@
 
 
 //add
+
+//Code to run function when touching screen was learnt from
+//https://developer.apple.com/documentation/uikit/uigesturerecognizer/1620009-touchesbegan?language=objc
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    
+    //To run the timer just only once
     if(start == NO)
     {
         start = YES;
@@ -265,20 +269,23 @@
         banana.center = CGPointMake(0, -99);
         bomb.center = CGPointMake(0, -99);
         
+        //Code of setting timer details was learnt from
+        //https://developer.apple.com/documentation/foundation/nstimer/1412416-scheduledtimerwithtimeinterval?language=objc
+        
         timer = [NSTimer scheduledTimerWithTimeInterval:0.01
                                                  target:self
                                                selector:@selector(Running)
                                                userInfo:nil
-                                                repeats:YES];
+                                                repeats:YES]; //To run the Running function every 0.01 second
     }
     
-    pacmanSpeed = -5;
+    pacmanSpeed = -5; //parameter of pacman's speed when touching screen
 }
 
 
 -(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    pacmanSpeed = 5;
+    pacmanSpeed = 5; //parameter of pacman's speed when touching screen
 }
 
 
